@@ -1,0 +1,37 @@
+{
+  "t": "AND",
+  "o": [
+    {
+      "t": "AND",
+      "o": [
+        {
+          "t": "EQ",
+          "p": "owner",
+          "v": "p:admin_platform",
+          "l": "Platform Admin"
+        },
+        {
+          "t": "EQ",
+          "p": "assignee",
+          "v": "p:admin_platform",
+          "l": "Platform Admin"
+        }
+      ]
+    },
+    {
+      "t": "AND",
+      "o": [
+        {
+          "t": "EQ",
+          "p": "type",
+          "v": "Task"
+        },
+        {
+          "t": "EQ",
+          "p": "owner",
+          "v": "p:admin_platform"
+        }
+      ]
+    }
+  ]
+}

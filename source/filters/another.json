@@ -1,0 +1,36 @@
+{
+  "t": "AND",
+  "o": [
+    {
+      "t": "AND",
+      "o": [
+        {
+          "t": "BTW",
+          "p": "dueDate",
+          "to": 1584057600000
+        }
+      ]
+    },
+    {
+      "t": "AND",
+      "o": [
+        {
+          "t": "EQ",
+          "p": "owner",
+          "v": "p:admin_platform",
+          "l": "Platform Admin"
+        },
+        {
+          "t": "EQ",
+          "p": "assignee",
+          "v": "p:admin_platform",
+          "l": "Platform Admin"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

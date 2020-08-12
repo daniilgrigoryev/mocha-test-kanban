@@ -1,0 +1,48 @@
+{
+  "t": "AND",
+  "o": [
+    {
+      "t": "OR",
+      "o": [
+        {
+          "t": "EQ",
+          "p": "owner",
+          "v": "p:admin_platform",
+          "l": "Platform Admin"
+        },
+        {
+          "t": "EQ",
+          "p": "owner",
+          "v": "p:Test Everything",
+          "l": "Everything Test"
+        },
+        {
+          "t": "EQ",
+          "p": "priority",
+          "v": "critical",
+          "l": "Критический"
+       }
+      ]
+    },
+    {
+      "t": "AND",
+      "o": [
+        {
+          "t": "OR",
+          "o": [
+            {
+              "t": "EQ",
+              "p": "assignee",
+              "v": "p:admin_platform"
+            },
+            {
+              "t": "EQ",
+              "p": "assignee",
+              "v": "p:Test Everything"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
